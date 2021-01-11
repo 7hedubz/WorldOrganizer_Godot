@@ -35,6 +35,14 @@ func _input(event):
 		else:
 			openSaveDialog()
 
+func closeAll(iterItem):
+	if iterItem.get_children() != null:
+		iterItem.get_children().set_collapsed(true)
+		closeAll(iterItem.get_children())
+	if iterItem.get_next() != null:
+		iterItem.get_next().set_collapsed(true)
+		closeAll(iterItem.get_next())
+
 func openSaveDialog():
 	if saveRoot.get_children() == null:
 		return
@@ -158,6 +166,7 @@ func loadData(path):
 					if rel[0] == itemDict[each].saveID:
 						rel[0] = each
 						break #If we found it and set it, break out of this loop and mvoe onto the next rel
+	closeAll(saveRoot)
 
 
 #SIGNALS
