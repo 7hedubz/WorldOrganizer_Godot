@@ -25,7 +25,7 @@ There are a number of Quality of Life updates I plan on adding to this program, 
     any time-frame in which you will get them. 
     
     Please please please if you have *any* questions, feedback, or really really feel like I should hurry up on one of these Quality of Life upgrades because you find yourself
-    having trouble or wasting your time because of it's current implementation, please find me on the r/Worldbuilding Discord channel, I'm 7heDubz#1975 and I check my 
+    having trouble or wasting your time because of it's current implementation, please find me on the Discords, I'm 7heDubz#1975 and I check my 
     messages often =)
     
         when opened start with everything closed state // OR I could save their opened/closed state during the save process... hmmm
