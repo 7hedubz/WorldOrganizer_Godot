@@ -38,4 +38,5 @@ There are a number of Quality of Life updates I plan on adding to this program, 
         it for your desired Operating System)
     
     
-This was written using the Godot game engine, a free and open source game engine available to download from their website, https://godotengine.org/
+This was written using the Godot game engine
+3.5.1, a free and open source game engine available to download from their website, https://godotengine.org/
